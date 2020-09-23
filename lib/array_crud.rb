@@ -3,6 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
+<<<<<<< HEAD
   ["Chris", "Paul", "Grace", "Son"]
 end
 
@@ -32,4 +33,35 @@ end
 
 def retrieve_last_element_from_array(array)
   array = array[-1]
+=======
+  [1, "Chris", "Ruby", 2020]
+end
+
+def add_element_to_end_of_array(array, element)
+  array << "apple"
+end
+
+def add_element_to_start_of_array(array, element)
+
+end
+
+def remove_element_from_end_of_array(array)
+
+end
+
+def remove_element_from_start_of_array(array)
+
+end
+
+def retrieve_element_from_index(array, index_number)
+
+end
+
+def retrieve_first_element_from_array(array)
+
+end
+
+def retrieve_last_element_from_array(array)
+
+>>>>>>> e944c10e3b0eb9a48618d76b22aa3c7096124119
 end
